@@ -12,7 +12,7 @@ import pandas as pd
 
 from datetime import datetime
 def main():
-    studentId = datetime.today().strftime("%s")
+    studentId = 'Student_' + str(random.randint(0, 10000))
     print (studentId)
     num_rounds = 8
     conditions = ["TPT"] * 4 + ["QD"] * 4
