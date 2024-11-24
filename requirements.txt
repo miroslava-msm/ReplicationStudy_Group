@@ -1,0 +1,7 @@
+firebase-admin
+streamlit
+altair
+pandas
+random
+datetime
+numpy
