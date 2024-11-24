@@ -107,7 +107,7 @@ def main():
     df= pd.DataFrame (responses,columns=['Round',"Condition",'Price_A', 'x', 'y', 'Accept', 'Price_B', 'Quantity', 'Earnings A', 'Earnings B', 'studentID'])
     file_name = "responses" + studentId +".csv"
    #print (file_name)
-    df.to_csv("/content/ReplicationStudy_TPT_QD/"+file_name, index=False)
+    df.to_csv("https://github.com/miroslava-msm/ReplicationStudy_Group/blob/main/ReplicationStudy.py/"+file_name, index=False)
     print("     Game Over! Responses have been saved for analysis.")
 
 
